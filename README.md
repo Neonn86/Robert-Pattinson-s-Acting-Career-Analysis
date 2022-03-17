@@ -4,7 +4,7 @@
 ***Hi~ Gorgeous.***
 
 ## Objective
-The goal is to portay Robert Pattinson's acting career based on people's perspectives about every one of his movies.
+The goal is to portray Robert Pattinson's acting career based on people's perspectives about every one of his movies.
 
 ## Data Source
 Use **Selenium** and **BeautifulSoup** to scrape the audience reviews and critics reviews from [Meta Critics](https://www.imdb.com/title/tt1877830/criticreviews?ref_=tt_ov_rt) of every movie Robert Pattinson stared in.
