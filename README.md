@@ -1,4 +1,4 @@
-# Robert-Pattinson's Acting Career Analysis using Sentiment Analysis
+# Robert Pattinson's Acting Career Analysis using Sentiment Analysis
 ![robert](https://user-images.githubusercontent.com/98130185/158734863-34639b65-86d3-4448-b0a9-a14e48286989.jpeg)
 
 ***Hi~ Gorgeous.***
