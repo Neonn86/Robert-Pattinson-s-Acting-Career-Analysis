@@ -45,7 +45,7 @@ More White -> More neural (Similar positive and negative frequencies)
 ### Prediction Models
 4 models were used to explore the classification accuracy from easy to complex ones.
 
-They are **Logistic Regression*, **Random Forest Classifier**, **LightGBM Classifier**, **LSTM (long Short Term Memory) Neural Network**.
+They are **Logistic Regression**, **Random Forest Classifier**, **LightGBM Classifier**, **LSTM (long Short Term Memory) Neural Network**.
 
 Before fitting the model, we found that Meta Critics data was imbalanced. We choosed **UnderSampling** method instead of **SMOTE** to fix the imbalance to avoid the overfitting because of the artificially generated new data. After experimenting on the ‘sampling strategy’, which is the desired ratio of minority class number / majority class number, 0.9 yielded the best result.
 
