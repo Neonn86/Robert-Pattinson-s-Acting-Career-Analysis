@@ -18,17 +18,18 @@ As a result, we have 8060 audience reviews and 945 critic review.
 
 ## Structure
 ### Robert's Career Overview
-In progess.
+- In total, Robert Pattinson acted in 38 movies from 2004 to 2022. Every year, he would shoot at least 1 movie. On average, he would star in 2 movies per year.
+
 
 ### Sentiment Analysis
 
 ### Prediction Models
 #### Logistic Regression 
 
-### Random Forest Classifier
+#### Random Forest Classifier
 
-### Light GBM Classifier
+#### Light GBM Classifier
 
-### LSTM (long Short Term Memory) 
+#### LSTM (long Short Term Memory) 
 
 ## Conclusion
