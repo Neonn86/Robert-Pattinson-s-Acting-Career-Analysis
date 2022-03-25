@@ -32,8 +32,10 @@ As a result, we have 8060 audience reviews and 945 critic review.
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/98130185/160050589-01614e34-a749-4904-85f7-febd6db72fcb.png">
 
 ### Sentiment Analysis
-More Blue -> More positive (Greater positive frequencies).
-More Red -> More negative (Greater positive frequencies).
+The plots show the frequencies of words's sentiment.
+
+More Blue -> More positive (Greater positive frequencies)
+More Red -> More negative (Greater positive frequencies)
 More White -> More neural (Similar positive and negative frequencies)
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/98130185/160050788-396f3f96-0af5-4fec-ad48-0c38b3c58da7.png">
@@ -41,12 +43,18 @@ More White -> More neural (Similar positive and negative frequencies)
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/98130185/160052233-88ec84c4-9f1a-4e70-97de-b5e04342f6d7.png">
 
 ### Prediction Models
-#### Logistic Regression 
+4 models were used to explore the classification accuracy from easy to complex ones.
 
-#### Random Forest Classifier
+They are **Logistic Regression*, **Random Forest Classifier**, **LightGBM Classifier**, **LSTM (long Short Term Memory) Neural Network**.
 
-#### Light GBM Classifier
+Before fitting the model, we found that Meta Critics data was imbalanced. We choosed **UnderSampling** method instead of **SMOTE** to fix the imbalance to avoid the overfitting because of the artificially generated new data. After experimenting on the ‘sampling strategy’, which is the desired ratio of minority class number / majority class number, 0.9 yielded the best result.
 
-#### LSTM (long Short Term Memory) 
+### Model Comparison
 
-## Conclusion
+For audience's reviews from IMDb, LightGBM yielded the best result.
+
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/98130185/160059078-1e3ca1f5-1837-4ce5-8bea-7136edb364ea.png">
+
+For critics's reviews from Meta Critics, LSTM yielded the best result.
+
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/98130185/160059100-23feb9bc-cc1e-4844-8fb9-1965b27a0ac2.png">
