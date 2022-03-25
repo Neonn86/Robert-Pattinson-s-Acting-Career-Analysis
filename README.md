@@ -19,9 +19,21 @@ As a result, we have 8060 audience reviews and 945 critic review.
 ## Structure
 ### Robert's Career Overview
 - In total, Robert Pattinson acted in 38 movies from 2004 to 2022. Every year, he would shoot at least 1 movie. On average, he would star in 2 movies per year.
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/98130185/160049880-34202ec5-df52-49e1-8864-d43e9b7e1378.png">
 
+- Nearly 79% of movies he participated in were as a leading role, and this trend becomes more obvious in recent years, at least one movie a year that he starred is as a leading role.
+
+<img width="210" alt="image" src="https://user-images.githubusercontent.com/98130185/160050085-b3600830-c681-4415-9e17-efa0644b0780.png"><img width="343" alt="image" src="https://user-images.githubusercontent.com/98130185/160050183-ed80b2d8-61da-4e52-9e30-02685affb296.png"> 
+
+- Movies' average rating is 6.3/10.0, but people's reviews of his films are getting better.
+- Critics's reviews are harsher than audience's in general.
+- Movies that audiences like that but critics don't are movies in 2016, 2017, and 2020, which are The Lost City of Z, Good Time, and Tenet.
+(Because 3 old movies do not have Meta Critics score, we set them as 0.)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/98130185/160050589-01614e34-a749-4904-85f7-febd6db72fcb.png">
 
 ### Sentiment Analysis
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/98130185/160050788-396f3f96-0af5-4fec-ad48-0c38b3c58da7.png">
+[Picture Link]
 
 ### Prediction Models
 #### Logistic Regression 
