@@ -38,6 +38,8 @@ More Blue -> More positive (Greater positive frequencies)
 More Red -> More negative (Greater positive frequencies)
 More White -> More neural (Similar positive and negative frequencies)
 
+***To see the interactive visualization, please download the 2 files in this repo named as "Interactive Visualization".***
+
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/98130185/160050788-396f3f96-0af5-4fec-ad48-0c38b3c58da7.png">
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/98130185/160052233-88ec84c4-9f1a-4e70-97de-b5e04342f6d7.png">
